@@ -117,7 +117,7 @@ class NewGSTInvoice implements Invoice {
 class USInvoice implements Invoice {
     @Override
     public void createInvoice() {
-        System.out.println("US Invoice....");
+        System.out.println("US Invoice.....");
     }
 }
 
