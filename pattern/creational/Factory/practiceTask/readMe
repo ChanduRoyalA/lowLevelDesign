@@ -1,0 +1,12 @@
+Scenario:
+    You are designing a Notification System.
+
+        Based on user preference, you need to send notifications via Email, SMS, or Push.
+        The type of notification is not known until runtime.
+
+Practice Task:
+
+    Create an interface Notification with a method notifyUser().
+
+        Concrete classes: EmailNotification, SMSNotification, PushNotification.
+        A NotificationFactory class that returns the appropriate object based on input type.
